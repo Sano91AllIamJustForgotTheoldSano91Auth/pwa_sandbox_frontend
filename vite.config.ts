@@ -37,7 +37,11 @@ export default defineConfig({
             sizes: '256x256',
             type: 'image/png',
           },
-          // pwa-384x384.png missing in your set, can be added later
+          {
+            src: 'pwa-384x384.png',
+            sizes: '384x384',
+            type: 'image/png',
+          },
           {
             src: 'pwa-512x512.png',
             sizes: '512x512',
