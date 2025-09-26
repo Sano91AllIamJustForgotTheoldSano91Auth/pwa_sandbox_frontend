@@ -7,6 +7,12 @@
 
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+
+    // ✅ Allow plain .js files inside src/
+    "allowJs": true,
+
+    // ✅ Do not type-check .js files (treat them as black boxes)
+    "checkJs": false
   }
 }
