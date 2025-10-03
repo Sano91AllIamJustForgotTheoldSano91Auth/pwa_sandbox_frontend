@@ -30,20 +30,20 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style scoped>
 header {
-  line-height: 1.5;
+  /* line-height: 1.5; */
   max-height: 100vh;
 }
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1%;
 }
 
 nav {
   width: 100%;
-  font-size: 12px;
+  /* font-size: 46px; */
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1%;
 }
 
 nav a.router-link-exact-active {
@@ -56,7 +56,7 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 1%;
   border-left: 1px solid var(--color-border);
 }
 
@@ -72,7 +72,7 @@ nav a:first-of-type {
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    margin: 0 1% 0 0;
   }
 
   header .wrapper {
@@ -83,11 +83,11 @@ nav a:first-of-type {
 
   nav {
     text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
+    margin-left: -1%;
+    /* font-size: 2rem; */
 
-    padding: 1rem 0;
-    margin-top: 1rem;
+    padding: 1% 0;
+    margin-top: 1%;
   }
 }
 </style>

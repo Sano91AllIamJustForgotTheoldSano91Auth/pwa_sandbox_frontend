@@ -14,13 +14,9 @@ defineProps<{
 <style scoped>
 h1 {
   font-weight: 500;
-  font-size: 2.6rem;
+  /* font-size: 4rem; */
   position: relative;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
+  top: -1%;
 }
 
 .greetings h1,
