@@ -79,9 +79,9 @@ export default defineConfig({
         'apple-touch-icon-167x167.png',
       ],
       manifest: {
-        name: 'PWA Sandbox',
-        short_name: 'Sandbox',
-        description: 'A Vue + Vite PWA sandbox project',
+        name: 'HeartReader',
+        short_name: 'HeartReader',
+        description: 'HeartReader PWA',
         theme_color: '#ffffff',
         background_color: '#ffffff',
         start_url: '.',
