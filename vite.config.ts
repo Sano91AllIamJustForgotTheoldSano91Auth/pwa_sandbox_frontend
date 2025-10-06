@@ -79,9 +79,9 @@ export default defineConfig({
         'apple-touch-icon-167x167.png',
       ],
       manifest: {
-        name: 'HeartReader',
+        name: 'HeartReader View',
         short_name: 'HeartReader',
-        description: 'HeartReader PWA',
+        description: 'HeartReader PWA dashboard',
         theme_color: '#ffffff',
         background_color: '#ffffff',
         start_url: '.',
